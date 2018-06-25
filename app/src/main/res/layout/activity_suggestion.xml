@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codesignet.consalto.suggestion.ui.activity.SuggestionActivity">
+
+    <android.support.constraint.ConstraintLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <TextView
+            android:id="@+id/suggestionsetSuggestion"
+            android:layout_width="385dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:text="@string/Suggestion"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/suggestionenteredSuggestion"
+            android:layout_width="345dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/new_edit"
+            android:ems="10"
+            android:hint="@string/suggestionYourSuggestion"
+            android:inputType="textMultiLine"
+            android:lines="6"
+            android:overScrollMode="always"
+            android:paddingLeft="10dp"
+            android:scrollHorizontally="false"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/suggestionsetSuggestion" />
+
+        <TextView
+            android:id="@+id/suggestionchooseMedicalType"
+            android:layout_width="345dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/new_edit"
+            android:drawableRight="@mipmap/dropdown"
+            android:hint="@string/suggestionChoosemedicaltype"
+            android:paddingLeft="10dp"
+            android:paddingRight="25dp"
+            android:paddingTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/suggestionCounter" />
+
+        <Spinner
+            android:id="@+id/suggestionspinnerMedicalType"
+            android:layout_width="177dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="8dp"
+            android:dropDownSelector="#42459c"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:prompt="@string/suggestionmedicaltype"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="@+id/suggestionchooseMedicalType"
+            app:layout_constraintEnd_toEndOf="@+id/suggestionchooseMedicalType"
+            app:layout_constraintHorizontal_bias="0.943"
+            app:layout_constraintStart_toStartOf="@+id/suggestionchooseMedicalType"
+            app:layout_constraintTop_toTopOf="@+id/suggestionchooseMedicalType" />
+
+
+
+        <EditText
+            android:id="@+id/suggestionaddress"
+            android:layout_width="345dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:hint="@string/suggestionAddress"
+            android:background="@drawable/new_edit"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/suggestionmedicalNameInEnglish" />
+
+
+        <EditText
+            android:id="@+id/suggestionphoneNumber"
+            android:layout_width="345dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:hint="@string/suggestionPhoneNumber"
+            android:background="@drawable/new_edit"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/place_autocomplete_fragment" />
+
+        <EditText
+            android:id="@+id/suggestionsupervisorName"
+            android:layout_width="345dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:digits="@string/app_lan_arabic_and_english"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:hint="@string/suggestionSupervisorName"
+            android:inputType="textPersonName"
+            android:background="@drawable/new_edit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/suggestionphoneNumber" />
+
+        <EditText
+            android:id="@+id/suggestionmedicalNameInArabic"
+            android:layout_width="345dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/new_edit"
+            android:digits="@string/app_lan_arabic"
+            android:ems="10"
+            android:paddingRight="10dp"
+            android:hint="@string/suggestionMedicalServiceNameinArabic"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.108"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/suggestionchooseMedicalType" />
+
+
+        <fragment
+            android:id="@+id/place_autocomplete_fragment"
+            android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+            android:layout_width="352dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.114"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/suggestionaddress">
+
+        </fragment>
+
+        <EditText
+            android:id="@+id/suggestionmedicalNameInEnglish"
+            android:layout_width="345dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/new_edit"
+            android:digits="@string/app_lan_english"
+            android:ems="10"
+            android:hint="@string/suggestionMedicalServiceNameinEnglish"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.106"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/suggestionmedicalNameInArabic" />
+
+
+        <View
+            android:layout_width="307dp"
+            android:layout_height="1dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="340dp"
+            android:background="#c0c0c0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.344"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/suggestionsubmitSuggestion"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_shape"
+            android:text="@string/suggestionSubmit"
+            android:textColor="#03f1b8"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.521"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/suggestionsupervisorName"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/suggestionCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/suggestionenteredSuggestion" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>

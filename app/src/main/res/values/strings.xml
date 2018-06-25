@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="google_maps_key">AIzaSyAYTrIfaB8xoil-EYEHGkn_y8BSDMyNJws</string>
+    <string name="app_name">Consalto</string>
+    <string name="review_prompt">Review Type</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="NameTxt">Name</string>
+    <string name="emailTxt">Email</string>
+    <string name="phoneTxt">Phone</string>
+    <string name="msgTxt">Message</string>
+    <string name="submit">Submit Question</string>
+    <string name="empty_fields">please fill all fields</string>
+    <string name="invalid_mail">Invalid Mail</string>
+    <string name="invalid_phone">Invalid Phone</string>
+    <string name="invalid_msg">enter msg within 20 to 200 character</string>
+    <string name="submitPriscription">Submit Priscription</string>
+    <string name="suggestionYourSuggestion">Your Suggestion</string>
+    <string name="suggestionEnterYourSuggestion">Enter Your Suggestion</string>
+    <string name="suggestionChoosemedicaltype">Choose medical type</string>
+    <string name="suggestionAddress">Address</string>
+    <string name="suggestionPhoneNumber">Phone Number</string>
+    <string name="suggestionSupervisorName">Supervisor Name</string>
+    <string name="suggestionMedicalServiceNameinArabic">Medical Service Name in Arabic</string>
+    <string name="suggestionMedicalServiceNameinEnglish">Medical Service Name in English</string>
+    <string name="suggestionSubmit">Submit</string>
+    <string name="suggestionmedicaltype">Medical Type</string>
+    <string name="app_lan_english">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="app_lan_arabic">أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن هـ و ي</string>
+    <string name="app_lan_arabic_and_english">أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن هـ و ي
+        abcdefghijklmnopqrstuvwxyz
+        ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="Name">Name</string>
+    <string name="Address">Address</string>
+    <string name="Email">Email</string>
+    <string name="StartDate">Start Date</string>
+    <string name="EndDate">End Date</string>
+    <string name="Package">Package</string>
+    <string name="Job">Job</string>
+    <string name="welcome">Welcome back</string>
+    <string name="login_to_continue"> login to continue</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="email_hint">Enter your e-mail..</string>
+    <string name="pass_hint">Enter your password..</string>
+    <string name="login">Login</string>
+    <string name="forgot_pass">Forgot password?</string>
+    <string name="saved_to_sp">saved to SharedPreference</string>
+    <string name="empty">You have to enter email and password</string>
+    <string name="not_member"> Sorry,there is no account with these data !</string>
+    <string name="login_error">login Error!</string>
+    <string name="login_success">login Successful</string>
+    <string name="not_valid">Not a valid email !</string>
+    <string name="forgetPasswordHeader">Forgot password ?</string>
+    <string name="forgetPasswordDescription">Please write your email here to send you an email with your password</string>
+    <string name="forgetpasswordemailHeader">Email</string>
+    <string name="forgetpasswordSendMail">Send</string>
+    <string name="Internt_access">Please open your internet access</string>
+    <string name="mailValidation">Please Enter a valid Email Address</string>
+    <string name="backtoLogin">Back To Login Button</string>
+    <string name="mailCheckDatabase">Please Enter Correct Mail</string>
+    <string name="checkMail">Check your mail to get your password</string>
+    <string name="noInternet">please check your internet connection</string>
+    <string name="home">Home</string>
+    <string name="selectType">Select the default shown medical type</string>
+    <string name="Hospital">Hospital</string>
+    <string name="Pharmacy">Pharmacy</string>
+    <string name="Lab">Lab</string>
+    <string name="Clinic">Clinic</string>
+    <string name="Arabic">Arabic</string>
+    <string name="English">English</string>
+    <string name="SelectLanguage">Select the language</string>
+    <string name="Save">Save</string>
+    <string name="profile">Profile</string>
+    <string name="contactUs">Request</string>
+    <string name="Setting">Settings</string>
+    <string name="Suggestion">Suggestion</string>
+    <string name="Message">Message</string>
+    <string name="Menu">Menu</string>
+    <string name="title_activity_home">Map</string>
+    <string name="sevices_prompt">Choose a service</string>
+
+    <string-array name="services_array">
+        <item>All</item>
+        <item>Hospitals</item>
+        <item>Pharmacies</item>
+        <item>Clinics</item>
+        <item>Labs</item>
+    </string-array>
+    <string-array name="Hospital_Departments">
+        <item>Acute medical unit</item>
+        <item>Coronary care unit</item>
+        <item>Geriatric intensive-care unit</item>
+        <item>Neonatal intensive care unit</item>
+        <item>Endoscopy unit</item>
+    </string-array>
+    <string-array name="Lab_Specialization">
+        <item>Urine test</item>
+        <item>Tumor markers</item>
+        <item>Blood tests</item>
+        <item>sugar tests</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="mServiceName">Name</string>
+    <string name="endDate">End Date</string>
+    <string name="startDate">Start Date</string>
+    <string name="rate">Rate</string>
+    <string name="openHour">Open Hour</string>
+    <string name="closeHour">Close Hour</string>
+    <string name="phones">Phones</string>
+    <string name="departments">Departments</string>
+    <string name="granted"> is already granted.</string>
+    <string name="error"> Error Loading Data !</string>
+    <string name="Submit">Send</string>
+    <string name="positive">Review</string>
+    <string name="negative">Complain</string>
+    <string name="description">Message</string>
+    <string name="spinnerHint">Select your Feedback Type</string>
+    <string name="Review">Review</string>
+    <string name="dateBtn">Select Your Feedback Date</string>
+    <string name="hospital">Hospital</string>
+    <string name="clinic">Clinic</string>
+    <string name="pharmacy">Pharmacy</string>
+    <string name="lab">Lab</string>
+    <string name="Logout">Logout</string>
+
+</resources>
